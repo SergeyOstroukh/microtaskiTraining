@@ -17,8 +17,8 @@ export const Comp1 = (props: TopCarsType) => {
                     <table>
                         <tbody>
                         <tr>
-                            <td key={index}>{el.manufacturer}</td>
-                            <td key={index}>{el.model}</td>
+                            <td>{el.manufacturer}</td>
+                            <td>{el.model}</td>
                         </tr>
                         </tbody>
                     </table>
